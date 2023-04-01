@@ -1,8 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "deep_aether:blue_aerglow_forest"
-  ],
+  "biomes": "#aether:is_aether",
   "features": "deep_aether:clorite",
   "step": "underground_ores"
 }

@@ -17,7 +17,7 @@ import teamrazor.deepaether.world.feature.DAPlacedFeatures;
 
 public class DABiomeBuilders {
 
-
+/*
     public static Biome aetherPlainsBiome(HolderGetter<PlacedFeature> placedFeatures, HolderGetter<ConfiguredWorldCarver<?>> worldCarvers) {
         return makeDefaultBiome(new BiomeGenerationSettings.Builder(placedFeatures, worldCarvers)
                 .addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, DAPlacedFeatures.AETHER_PLAINS_FLOWER_PATCH)
@@ -105,7 +105,7 @@ public class DABiomeBuilders {
                 .generationSettings(generationSettings)
                 .temperatureAdjustment(temperatureModifier)
                 .build();
-    }
+    }*/
 
 
 }

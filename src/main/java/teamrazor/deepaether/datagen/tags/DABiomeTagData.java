@@ -21,7 +21,7 @@ public class DABiomeTagData extends BiomeTagsProvider {
         this.tag(AetherTags.Biomes.IS_AETHER).add(
                 DABiomes.AERLAVENDER_FIELDS,
                 DABiomes.AERGLOW_FOREST,
-                DABiomes.RARE_AERGLOW_FOREST,
+                DABiomes.MYSTIC_AERGLOW_FOREST,
                 DABiomes.BLUE_AERGLOW_FOREST,
                 DABiomes.YAGROOT_SWAMP
 

@@ -12,7 +12,7 @@ public class DABiomes {
 
     public static final ResourceKey<Biome> BLUE_AERGLOW_FOREST = createKey("blue_aerglow_forest");
 
-    public static final ResourceKey<Biome> RARE_AERGLOW_FOREST = createKey("rare_aerglow_forest");
+    public static final ResourceKey<Biome> MYSTIC_AERGLOW_FOREST = createKey("mystic_aerglow_forest");
 
     public static final ResourceKey<Biome> YAGROOT_SWAMP = createKey("yagroot_swamp");
 
