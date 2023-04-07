@@ -138,8 +138,8 @@
       },
       {
         "type": "aether:cockatrice",
-        "maxCount": 4,
-        "minCount": 4,
+        "maxCount": 6,
+        "minCount": 6,
         "weight": 100
       },
       {

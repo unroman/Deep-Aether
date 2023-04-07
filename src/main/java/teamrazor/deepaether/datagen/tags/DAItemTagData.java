@@ -1,5 +1,6 @@
 package teamrazor.deepaether.datagen.tags;
 
+import com.gildedgames.aether.Aether;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -16,12 +17,6 @@ import java.util.concurrent.CompletableFuture;
 public class DAItemTagData extends ItemTagsProvider {
     public DAItemTagData(PackOutput output, CompletableFuture<HolderLookup.Provider> registries, CompletableFuture<TagLookup<Block>> blockTags, @Nullable ExistingFileHelper helper) {
         super(output, registries, blockTags, DeepAetherMod.MODID, helper);
-    }
-
-    @Nonnull
-    @Override
-    public String getName() {
-        return "Deep Aether Item Tags";
     }
 
     @SuppressWarnings("unchecked")

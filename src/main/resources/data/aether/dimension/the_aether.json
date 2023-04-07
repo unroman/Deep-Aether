@@ -156,7 +156,7 @@
           }
         },
         {
-          "biome": "deep_aether:golden_fields",
+          "biome": "deep_aether:golden_heights",
           "parameters": {
             "continentalness": [
               -1.0,

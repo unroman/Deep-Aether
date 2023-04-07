@@ -176,6 +176,10 @@ public class DAItemModelData extends AetherItemModelProvider {
         this.itemBlockFlat(DABlocks.AETHER_CATTAILS.get());
         this.itemBlockFlatName(DABlocks.TALL_AETHER_CATTAILS.get(), "tall_aether_cattails_top");
         this.itemBlockFlat(DABlocks.RADIANT_ORCHID.get());
+        this.itemBlockFlat(DABlocks.MEDIUM_GOLDEN_GRASS.get());
+        this.itemBlockFlat(DABlocks.SHORT_GOLDEN_GRASS.get());
+        this.itemBlockFlat(DABlocks.MINI_GOLDEN_GRASS.get());
+        this.itemBlockFlatName(DABlocks.TALL_GOLDEN_GRASS.get(), "tall_golden_grass_top");
 
         this.itemBlock(DABlocks.AETHER_MOSS_CARPET.get());
         this.itemBlock(DABlocks.AETHER_MOSS_BLOCK.get());

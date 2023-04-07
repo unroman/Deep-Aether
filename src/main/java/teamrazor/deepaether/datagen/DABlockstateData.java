@@ -198,6 +198,9 @@ public class DABlockstateData extends AetherBlockStateProvider {
 
         this.block(DABlocks.VIRULENT_QUICKSAND.get());
         this.block(DABlocks.AETHER_MOSS_BLOCK.get());
+        this.crossBlock(DABlocks.MINI_GOLDEN_GRASS.get());
+        this.crossBlock(DABlocks.MEDIUM_GOLDEN_GRASS.get());
+        this.crossBlock(DABlocks.SHORT_GOLDEN_GRASS.get());
     }
 
     public ResourceLocation texture(String name, String suffix) {

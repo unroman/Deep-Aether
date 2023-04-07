@@ -23,7 +23,8 @@ public class DABiomeTagData extends BiomeTagsProvider {
                 DABiomes.AERGLOW_FOREST,
                 DABiomes.MYSTIC_AERGLOW_FOREST,
                 DABiomes.BLUE_AERGLOW_FOREST,
-                DABiomes.YAGROOT_SWAMP
+                DABiomes.YAGROOT_SWAMP,
+                DABiomes.GOLDEN_HEIGHTS
 
 
         );

@@ -38,6 +38,10 @@ public class DABlocks {
 	//GRASS
 	public static final RegistryObject<Block> GOLDEN_FIELD_GRASS_BLOCK = registerBlock("golden_field_grass_block", () -> new AetherGrassBlock(Block.Properties.of(Material.GRASS, MaterialColor.WARPED_WART_BLOCK).randomTicks().strength(0.2F).sound(SoundType.GRASS)));
 
+	public static final RegistryObject<Block> MINI_GOLDEN_GRASS = registerBlock("mini_golden_grass", ()-> new BushBlock(BlockBehaviour.Properties.of(Material.REPLACEABLE_PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XYZ)));
+	public static final RegistryObject<Block> SHORT_GOLDEN_GRASS = registerBlock("short_golden_grass", ()-> new BushBlock(BlockBehaviour.Properties.of(Material.REPLACEABLE_PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XYZ)));
+	public static final RegistryObject<Block> MEDIUM_GOLDEN_GRASS = registerBlock("medium_golden_grass", ()-> new BushBlock(BlockBehaviour.Properties.of(Material.REPLACEABLE_PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XYZ)));
+	public static final RegistryObject<Block> TALL_GOLDEN_GRASS = registerBlock("tall_golden_grass", ()-> new DoublePlantBlock(BlockBehaviour.Properties.of(Material.REPLACEABLE_PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ)));
 
 
 	// WOOD

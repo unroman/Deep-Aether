@@ -52,7 +52,7 @@ public class DASurfaceRules {
                 surfaceRules.add(0, SurfaceRules.ifTrue(SurfaceRules.isBiome(DABiomes.YAGROOT_SWAMP),
                         SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(DABlocks.AETHER_MUD.get().defaultBlockState().setValue(AetherBlockStateProperties.DOUBLE_DROPS, true)))));
 
-                surfaceRules.add(0, SurfaceRules.ifTrue(SurfaceRules.isBiome(DABiomes.GOLDEN_FIELDS),
+                surfaceRules.add(0, SurfaceRules.ifTrue(SurfaceRules.isBiome(DABiomes.GOLDEN_HEIGHTS),
                         SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, SurfaceRules.state(DABlocks.GOLDEN_FIELD_GRASS_BLOCK.get().defaultBlockState().setValue(AetherBlockStateProperties.DOUBLE_DROPS, true)))));
 
 

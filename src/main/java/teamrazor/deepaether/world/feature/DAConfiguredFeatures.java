@@ -74,7 +74,8 @@ public class DAConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> ROSEROOT_TREES_PLACEMENT = createKey("roseroot_trees_placement");
     public static final ResourceKey<ConfiguredFeature<?, ?>> BLUE_ROSEROOT_TREES_PLACEMENT = createKey("blue_roseroot_trees_placement");
 
-    public static final ResourceKey<ConfiguredFeature<?, ?>> GOLDEN_OAK_AND_AMBERROOT_TREES_PLACEMENT = createKey("golden_oak_and_amberroot_trees_placement");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> GOLDEN_GRASS_PATCH = createKey("golden_grass_patch");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SHORT_GOLDEN_GRASS_PATCH = createKey("short_golden_grass_patch");
     public static final ResourceKey<ConfiguredFeature<?, ?>> AETHER_CATTAILS_PATCH =  createKey("aether_cattails_patch");
     public static final ResourceKey<ConfiguredFeature<?, ?>> AMBERROOT_TREE = createKey("amberroot_tree");
 
@@ -179,6 +180,19 @@ public class DAConfiguredFeatures {
                         .add(AetherFeatureStates.BERRY_BUSH, 1)
                         .add(Blocks.GRASS.defaultBlockState(), 32)), 418));
 
+        register(context, GOLDEN_GRASS_PATCH, Feature.FLOWER,
+                AetherConfiguredFeatureBuilders.grassPatch(new WeightedStateProvider(SimpleWeightedRandomList.<BlockState>builder()
+                        .add(DABlocks.MINI_GOLDEN_GRASS.get().defaultBlockState(), 16)
+                        .add(DABlocks.SHORT_GOLDEN_GRASS.get().defaultBlockState(), 16)
+                        .add(DABlocks.MEDIUM_GOLDEN_GRASS.get().defaultBlockState(), 16)
+                        .add(DABlocks.TALL_GOLDEN_GRASS.get().defaultBlockState(), 16)), 418));
+
+        register(context, SHORT_GOLDEN_GRASS_PATCH, Feature.FLOWER,
+                AetherConfiguredFeatureBuilders.grassPatch(new WeightedStateProvider(SimpleWeightedRandomList.<BlockState>builder()
+                        .add(DABlocks.MINI_GOLDEN_GRASS.get().defaultBlockState(), 32)
+                        .add(DABlocks.SHORT_GOLDEN_GRASS.get().defaultBlockState(), 32)
+                        .add(DABlocks.MEDIUM_GOLDEN_GRASS.get().defaultBlockState(), 16)
+                        .add(DABlocks.TALL_GOLDEN_GRASS.get().defaultBlockState(), 1)), 418));
 
         register(context, AETHER_CATTAILS_PATCH, Feature.FLOWER,
                 AetherConfiguredFeatureBuilders.grassPatch(new WeightedStateProvider(SimpleWeightedRandomList.<BlockState>builder()

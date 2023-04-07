@@ -23,7 +23,7 @@ public class DABlockTagData extends BlockTagsProvider {
 
     @SuppressWarnings("unchecked")
     @Override
-    protected void addTags(HolderLookup.Provider p_256380_) {
+    protected void addTags(HolderLookup.Provider provider) {
 
     }
 }
